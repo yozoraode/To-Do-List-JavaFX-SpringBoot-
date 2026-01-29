@@ -28,7 +28,7 @@ public class VanillaToDoApplication extends Application {
 	@Override
 	public void start(Stage stage) {
 		
-		ToDoservice.uiLogic(stage);
+		UI.uiLogic(stage);
 		
 	}
 	public static void main(String[] args) {
