@@ -1,5 +1,9 @@
 package com.defranto.VanillaToDo;
 
-public class repository {
+import org.springframework.data.repository.ListCrudRepository;
+import org.springframework.stereotype.Repository;
 
+@Repository
+public interface repository extends ListCrudRepository<entry, Integer>{
+	 
 }

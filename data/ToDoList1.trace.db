@@ -1,0 +1,10 @@
+2026-01-29 09:12:00.015970+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-240]
+2026-01-29 09:13:00.001708+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-240]
